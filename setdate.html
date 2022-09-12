@@ -1,0 +1,75 @@
+<html>
+	<head>
+	<title>setTime</title>
+	</head>
+	
+	<body>
+		<script>
+		function fullYear(){
+				var a=new Date();
+				a.setFullYear(2021);
+				document.write(a.getMonth());
+				}
+		</script>
+		
+		<script>
+		function month(){
+					var b=new Date();
+					b.setFullYear(2021);
+					document.write(b.getMonth());
+				}
+		</script>
+		
+		<script>
+		function date(){
+				var c=new Date();
+				c.setDate(2021);
+				document.write(c);
+				} 
+		</script>
+		
+		<script>
+		function hours(){
+				var d=new Date();
+				d.setHours(20);
+				document.write(d);
+				}
+		</script>
+		
+		<script>
+		function second(){
+				var e=new Date();
+				e.setSeconds(2021);
+				document.write(e);
+				}
+		</script>
+		
+		<script>
+		function milisecond(){
+				var f=new Date('january 25 2021');
+				
+				document.write(f.getFullYear() +"/"+f.getMonth()+"/"+f.getDate());
+				}
+		</script>
+		
+		<button type="button" onclick="fullYear()">Fullyear</button>
+			<br>
+			<br>
+			<button type="button" onclick="month()">Month</button>
+			<br>
+			<br>
+			<button type="button" onclick="date()">Date</button>
+			<br>
+			<br>
+			<button type="button" onclick="hours()">Hours</button>
+			<br>
+			<br>
+			<button type="button" onclick="second()">Seconds</button>
+			<br>
+			<br>
+			<button type="button" onclick="milisecond()">mlSeconds</button>
+			<br>
+			<br>
+	</body>
+	
+	</html>

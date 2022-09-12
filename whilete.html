@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>while</title>
+	</head>
+	<body>
+			<script>
+					function sand(){
+								var name=document.getElementById("team").value;
+								var i=name;
+								while(i<=(name*10))
+								{
+									if(i%name==0)
+									{
+										document.write(i + "<br>");
+									}
+									i++;
+								}
+								
+							}
+			</script>
+			<input type="text" id="team">
+			<button type="button" onclick="sand()">Enter</button>
+	</body>
+	</html>
+	

@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>dowhile</title>
+	<style>
+			.man{
+					color:white;
+					background-color:darkred;
+							}
+	</style>
+	</head>
+	
+	<body>
+			<script>
+					function hello(){
+						var x=document.getElementById("name").value;
+						var i=x;
+						do{
+						
+					if(i%x==0){
+								
+								document.write( i+'<br>');
+								}
+								i++;
+								
+							}while(i<=(x*10))
+							
+							
+									}
+		</script>
+		<input type="text" id="name" class="man">
+		<button type="button" onclick="hello()" class="but">click</button>
+	</body>
+	
+	</html>
